@@ -23,205 +23,205 @@
   <ExcludedFiles />
   <CollectedSourceFiles>
     <Url
-      Source="../slideshow/Content/Resources/Images/Image.png"
+      Source="../../../slideshow/Content/Resources/Images/Image.png"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Images/Image.png" />
     <Url
-      Source="../slideshow/Content/Resources/Images/ImageThumbnail.png"
+      Source="../../../slideshow/Content/Resources/Images/ImageThumbnail.png"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Images/ImageThumbnail.png" />
     <Url
-      Source="../slideshow/Content/Resources/Images/JokeThumbnail.png"
+      Source="../../../slideshow/Content/Resources/Images/JokeThumbnail.png"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Images/JokeThumbnail.png" />
     <Url
-      Source="../slideshow/Content/Resources/Images/TableThumbnail.png"
+      Source="../../../slideshow/Content/Resources/Images/TableThumbnail.png"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Images/TableThumbnail.png" />
     <Url
-      Source="../slideshow/Content/Resources/Images/VideoImage.png"
+      Source="../../../slideshow/Content/Resources/Images/VideoImage.png"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Images/VideoImage.png" />
     <Url
-      Source="../slideshow/Content/Resources/Images/VideoThumbnail.png"
+      Source="../../../slideshow/Content/Resources/Images/VideoThumbnail.png"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Images/VideoThumbnail.png" />
     <Url
-      Source="../slideshow/Content/Resources/Snippets/1 Image.flsnp"
+      Source="../../../slideshow/Content/Resources/Snippets/1 Image.flsnp"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Snippets/1 Image.flsnp" />
     <Url
-      Source="../slideshow/Content/Resources/Snippets/2 Joke.flsnp"
+      Source="../../../slideshow/Content/Resources/Snippets/2 Joke.flsnp"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Snippets/2 Joke.flsnp" />
     <Url
-      Source="../slideshow/Content/Resources/Snippets/3 Table.flsnp"
+      Source="../../../slideshow/Content/Resources/Snippets/3 Table.flsnp"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Snippets/3 Table.flsnp" />
     <Url
-      Source="../slideshow/Content/Resources/Snippets/4 Video.flsnp"
+      Source="../../../slideshow/Content/Resources/Snippets/4 Video.flsnp"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Snippets/4 Video.flsnp" />
     <Url
-      Source="../slideshow/Content/Resources/Stylesheets/styles.css"
+      Source="../../../slideshow/Content/Resources/Stylesheets/styles.css"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Stylesheets/styles.css" />
     <Url
-      Source="../slideshow/Content/Resources/TableStyles/PatternedRows.css"
+      Source="../../../slideshow/Content/Resources/TableStyles/PatternedRows.css"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/TableStyles/PatternedRows.css" />
     <Url
-      Source="../slideshow/Content/Resources/TableStyles/Simple.css"
+      Source="../../../slideshow/Content/Resources/TableStyles/Simple.css"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/TableStyles/Simple.css" />
     <Url
-      Source="../slideshow/Content/Resources/TableStyles/SimpleWithPadding.css"
+      Source="../../../slideshow/Content/Resources/TableStyles/SimpleWithPadding.css"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/TableStyles/SimpleWithPadding.css" />
     <Url
-      Source="../slideshow/Content/Resources/TableStyles/Standard.css"
+      Source="../../../slideshow/Content/Resources/TableStyles/Standard.css"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/TableStyles/Standard.css" />
     <Url
-      Source="../slideshow/Content/SlideshowTopics/AdaptiveHeightDisabled.htm"
+      Source="../../../slideshow/Content/SlideshowTopics/AdaptiveHeightDisabled.htm"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/SlideshowTopics/AdaptiveHeightDisabled.htm" />
     <Url
-      Source="../slideshow/Content/SlideshowTopics/AdaptiveHeightEnabled.htm"
+      Source="../../../slideshow/Content/SlideshowTopics/AdaptiveHeightEnabled.htm"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/SlideshowTopics/AdaptiveHeightEnabled.htm" />
     <Url
-      Source="../slideshow/Content/SlideshowTopics/AutoPlay.htm"
+      Source="../../../slideshow/Content/SlideshowTopics/AutoPlay.htm"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/SlideshowTopics/AutoPlay.htm" />
     <Url
-      Source="../slideshow/Content/SlideshowTopics/BulletNavigation.htm"
+      Source="../../../slideshow/Content/SlideshowTopics/BulletNavigation.htm"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/SlideshowTopics/BulletNavigation.htm" />
     <Url
-      Source="../slideshow/Content/SlideshowTopics/FullScreenPresentation.htm"
+      Source="../../../slideshow/Content/SlideshowTopics/FullScreenPresentation.htm"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/SlideshowTopics/FullScreenPresentation.htm" />
     <Url
-      Source="../slideshow/Content/SlideshowTopics/ThumbnailNavigation.htm"
+      Source="../../../slideshow/Content/SlideshowTopics/ThumbnailNavigation.htm"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/SlideshowTopics/ThumbnailNavigation.htm" />
     <Url
-      Source="../slideshow/Project/Advanced/AliasFile.flali"
+      Source="../../../slideshow/Project/Advanced/AliasFile.flali"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Advanced/AliasFile.flali" />
     <Url
-      Source="../slideshow/Project/Advanced/AuthorFileTags.flfts"
+      Source="../../../slideshow/Project/Advanced/AuthorFileTags.flfts"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Advanced/AuthorFileTags.flfts" />
     <Url
-      Source="../slideshow/Project/Advanced/HeaderFile.h"
+      Source="../../../slideshow/Project/Advanced/HeaderFile.h"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Advanced/HeaderFile.h" />
     <Url
-      Source="../slideshow/Project/Advanced/IndexLinks.flixl"
+      Source="../../../slideshow/Project/Advanced/IndexLinks.flixl"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Advanced/IndexLinks.flixl" />
     <Url
-      Source="../slideshow/Project/Advanced/SearchFilterSet.flsfs"
+      Source="../../../slideshow/Project/Advanced/SearchFilterSet.flsfs"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Advanced/SearchFilterSet.flsfs" />
     <Url
-      Source="../slideshow/Project/Advanced/StatusFileTags.flfts"
+      Source="../../../slideshow/Project/Advanced/StatusFileTags.flfts"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Advanced/StatusFileTags.flfts" />
     <Url
-      Source="../slideshow/Project/ConditionTagSets/General-slideshow.flcts"
+      Source="../../../slideshow/Project/ConditionTagSets/General-slideshow.flcts"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/ConditionTagSets/General-slideshow.flcts" />
     <Url
-      Source="../slideshow/Project/Glossaries/Glossary-slideshow.flglo"
+      Source="../../../slideshow/Project/Glossaries/Glossary-slideshow.flglo"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Glossaries/Glossary-slideshow.flglo" />
     <Url
-      Source="../slideshow/Project/Skins/HTML5.flskn"
+      Source="../../../slideshow/Project/Skins/HTML5.flskn"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Skins/HTML5.flskn" />
     <Url
-      Source="../slideshow/Project/Targets/Slideshow.fltar"
+      Source="../../../slideshow/Project/Targets/Slideshow.fltar"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Targets/Slideshow.fltar" />
     <Url
-      Source="../slideshow/Project/TOCs/OnlineOutput.fltoc"
+      Source="../../../slideshow/Project/TOCs/OnlineOutput.fltoc"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/TOCs/OnlineOutput.fltoc" />
     <Url
-      Source="../slideshow/Project/VariableSets/General-slideshow.flvar"
+      Source="../../../slideshow/Project/VariableSets/General-slideshow.flvar"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/VariableSets/General-slideshow.flvar" />
   </CollectedSourceFiles>
   <SkippedSourceFiles />
   <GeneratedFiles>
     <Url
-      Source="Content/Resources/Images/Image.png"
+      Source="../../Content/Resources/Images/Image.png"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Content/Resources/Images/ImageThumbnail.png"
+      Source="../../Content/Resources/Images/ImageThumbnail.png"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Content/Resources/Images/JokeThumbnail.png"
+      Source="../../Content/Resources/Images/JokeThumbnail.png"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Content/Resources/Images/TableThumbnail.png"
+      Source="../../Content/Resources/Images/TableThumbnail.png"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Content/Resources/Images/VideoImage.png"
+      Source="../../Content/Resources/Images/VideoImage.png"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Content/Resources/Images/VideoThumbnail.png"
+      Source="../../Content/Resources/Images/VideoThumbnail.png"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Content/Resources/Snippets/1 Image.flsnp"
+      Source="../../Content/Resources/Snippets/1 Image.flsnp"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Content/Resources/Snippets/2 Joke.flsnp"
+      Source="../../Content/Resources/Snippets/2 Joke.flsnp"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Content/Resources/Snippets/3 Table.flsnp"
+      Source="../../Content/Resources/Snippets/3 Table.flsnp"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Content/Resources/Snippets/4 Video.flsnp"
+      Source="../../Content/Resources/Snippets/4 Video.flsnp"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Content/Resources/Stylesheets/styles.css"
+      Source="../../Content/Resources/Stylesheets/styles.css"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Content/Resources/TableStyles/PatternedRows.css"
+      Source="../../Content/Resources/TableStyles/PatternedRows.css"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Content/Resources/TableStyles/Simple.css"
+      Source="../../Content/Resources/TableStyles/Simple.css"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Content/Resources/TableStyles/SimpleWithPadding.css"
+      Source="../../Content/Resources/TableStyles/SimpleWithPadding.css"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Content/Resources/TableStyles/Standard.css"
+      Source="../../Content/Resources/TableStyles/Standard.css"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Content/SlideshowTopics/AdaptiveHeightDisabled.htm"
+      Source="../../Content/SlideshowTopics/AdaptiveHeightDisabled.htm"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Content/SlideshowTopics/AdaptiveHeightEnabled.htm"
+      Source="../../Content/SlideshowTopics/AdaptiveHeightEnabled.htm"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Content/SlideshowTopics/AutoPlay.htm"
+      Source="../../Content/SlideshowTopics/AutoPlay.htm"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Content/SlideshowTopics/BulletNavigation.htm"
+      Source="../../Content/SlideshowTopics/BulletNavigation.htm"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Content/SlideshowTopics/FullScreenPresentation.htm"
+      Source="../../Content/SlideshowTopics/FullScreenPresentation.htm"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Content/SlideshowTopics/ThumbnailNavigation.htm"
+      Source="../../Content/SlideshowTopics/ThumbnailNavigation.htm"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Project/Advanced/AliasFile.flali"
+      Source="../Advanced/AliasFile.flali"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Project/Advanced/AuthorFileTags.flfts"
+      Source="../Advanced/AuthorFileTags.flfts"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Project/Advanced/HeaderFile.h"
+      Source="../Advanced/HeaderFile.h"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Project/Advanced/IndexLinks.flixl"
+      Source="../Advanced/IndexLinks.flixl"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Project/Advanced/SearchFilterSet.flsfs"
+      Source="../Advanced/SearchFilterSet.flsfs"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Project/Advanced/StatusFileTags.flfts"
+      Source="../Advanced/StatusFileTags.flfts"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Project/ConditionTagSets/General-slideshow.flcts"
+      Source="../ConditionTagSets/General-slideshow.flcts"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Project/Glossaries/Glossary-slideshow.flglo"
+      Source="../Glossaries/Glossary-slideshow.flglo"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Project/Skins/HTML5.flskn"
+      Source="../Skins/HTML5.flskn"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Project/Targets/Slideshow.fltar"
+      Source="../Targets/Slideshow.fltar"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Project/TOCs/OnlineOutput.fltoc"
+      Source="../TOCs/OnlineOutput.fltoc"
       TimeStamp="5/3/2017 12:14:46 PM" />
     <Url
-      Source="Project/VariableSets/General-slideshow.flvar"
+      Source="../VariableSets/General-slideshow.flvar"
       TimeStamp="5/3/2017 12:14:46 PM" />
   </GeneratedFiles>
 </CatapultProject>
