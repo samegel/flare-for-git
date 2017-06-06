@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="437" MadCap:lastWidth="1424">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="437" MadCap:lastWidth="1299">
     <head>
     </head>
     <body>
@@ -10,7 +10,7 @@
                     <td>
                         <p class="key-term">branch</p>
                         <p class="part-of-speech">noun, verb</p>
-                        <p>A branch is a separate history. When you create a new branch, Git will keep track of your commits on that branch separately from the original branch. A branch is <u>not</u> a separate copy of files.</p>
+                        <p>A branch is a separate history. When you create a new branch, Git will keep track of your commits on that branch separately from other branches.</p>
                     </td>
                 </tr>
             </tbody>

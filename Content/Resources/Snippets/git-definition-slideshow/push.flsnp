@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="437" MadCap:lastWidth="1424">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="437" MadCap:lastWidth="1365">
     <head>
     </head>
     <body>
@@ -10,7 +10,7 @@
                     <td>
                         <p class="key-term">push</p>
                         <p class="part-of-speech">verb</p>
-                        <p>Add changes (changes = commits) from the repo on your computer to the repo on GitHub. This is how you share changes.</p>
+                        <p>Add committed changes from the repo on your computer to GitHub.</p>
                     </td>
                 </tr>
             </tbody>

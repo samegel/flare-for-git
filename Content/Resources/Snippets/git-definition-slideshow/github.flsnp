@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="437" MadCap:lastWidth="1390">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="437" MadCap:lastWidth="1299">
     <head>
     </head>
     <body>
@@ -10,7 +10,7 @@
                     <td>
                         <p class="key-term">github</p>
                         <p class="part-of-speech">noun</p>
-                        <p>A social media site for sharing projects rev controlled in Git.</p>
+                        <p>A social media site for sharing projects that are revision controlled with Git.</p>
                     </td>
                 </tr>
             </tbody>

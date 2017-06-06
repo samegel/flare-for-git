@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="437" MadCap:lastWidth="1424">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="437" MadCap:lastWidth="1366">
     <head>
     </head>
     <body>
@@ -10,7 +10,7 @@
                     <td>
                         <p class="key-term">commit</p>
                         <p class="part-of-speech">noun, verb</p>
-                        <p>You perform a commit to tell git that you want to record some changes you just made that you want recorded in history.</p>
+                        <p>A commit is how you tell Git to record changes in the history.</p>
                     </td>
                 </tr>
             </tbody>

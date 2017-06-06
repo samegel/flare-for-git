@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="437" MadCap:lastWidth="1424">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="437" MadCap:lastWidth="1365">
     <head>
     </head>
     <body>
@@ -10,7 +10,7 @@
                     <td>
                         <p class="key-term">History</p>
                         <p class="part-of-speech">noun</p>
-                        <p>This is the list of changes in a repository that you have told Git to record.</p>
+                        <p>The record of changes in a repo.</p>
                     </td>
                 </tr>
             </tbody>

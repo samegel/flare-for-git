@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="437" MadCap:lastWidth="1424">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="437" MadCap:lastWidth="1299">
     <head>
     </head>
     <body>
@@ -10,7 +10,7 @@
                     <td>
                         <p class="key-term">pull request</p>
                         <p class="part-of-speech">noun</p>
-                        <p>This is a formalized way of asking for your changes to be approved. You create a pull request to give collaborators an easy way to view exactly what changes you made and state whether they approve of the changes or not.</p>
+                        <p><strong>This is a formalized way of asking for your changes to be approved.</strong> You create a pull request to give collaborators an easy way to view exactly what changes you made and state whether they approve of the changes or not.</p>
                     </td>
                 </tr>
             </tbody>
