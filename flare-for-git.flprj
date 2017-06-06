@@ -1,227 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CatapultProject
-  Version="1"
-  xml:lang="en-us"
-  SourceControlBound="true"
-  Comment="This template contains several starter topics and other files intended for online HTML5 output with top navigation like a modern website, instead of the more traditional tripane format. It is a simpler version of the Top Navigation and PDF Advanced template. Although it is a basic template, the content and files have been designed to maximize single-sourcing capabilities. This template starts you out with two HTML5 targets. Responsive output is automatically enabled with this type of output. This means the content display changes automatically depending on the width of the screen. The template also includes a PDF target, with auto-generation of a TOC. You can add other kinds of targets and skins if you like."
-  MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
-  MasterStylesheetOverride="True"
-  SourceControlProviderType="Git"
-  ProjectGuid="4a131015-f009-41ca-ac47-b3132d9a65a9"
-  IncludePattern="*.*"
-  AutoExcludeNonTaggedFiles="false"
-  IncludeLinkedFiles="false"
-  DeleteStale="false"
-  DeleteUnreferenced="true"
-  AutoSync="false"
-  LastImport="2017-06-05T10:38:26.4121940-05:00">
-  <Files>
-    <Url
-      Source="file:///C:/Users/samuel.egel/flare/slideshow/slideshow.flprj"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/slideshow.flprj" />
-  </Files>
-  <ExcludedFiles />
-  <CollectedSourceFiles>
-    <Url
-      Source="../slideshow/Content/Resources/Images/Image.png"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Images/Image.png" />
-    <Url
-      Source="../slideshow/Content/Resources/Images/ImageThumbnail.png"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Images/ImageThumbnail.png" />
-    <Url
-      Source="../slideshow/Content/Resources/Images/JokeThumbnail.png"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Images/JokeThumbnail.png" />
-    <Url
-      Source="../slideshow/Content/Resources/Images/TableThumbnail.png"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Images/TableThumbnail.png" />
-    <Url
-      Source="../slideshow/Content/Resources/Images/VideoImage.png"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Images/VideoImage.png" />
-    <Url
-      Source="../slideshow/Content/Resources/Images/VideoThumbnail.png"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Images/VideoThumbnail.png" />
-    <Url
-      Source="../slideshow/Content/Resources/Snippets/1 Image.flsnp"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Snippets/1 Image.flsnp" />
-    <Url
-      Source="../slideshow/Content/Resources/Snippets/2 Joke.flsnp"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Snippets/2 Joke.flsnp" />
-    <Url
-      Source="../slideshow/Content/Resources/Snippets/3 Table.flsnp"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Snippets/3 Table.flsnp" />
-    <Url
-      Source="../slideshow/Content/Resources/Snippets/4 Video.flsnp"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Snippets/4 Video.flsnp" />
-    <Url
-      Source="../slideshow/Content/Resources/Stylesheets/styles.css"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Stylesheets/styles.css" />
-    <Url
-      Source="../slideshow/Content/Resources/TableStyles/PatternedRows.css"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/TableStyles/PatternedRows.css" />
-    <Url
-      Source="../slideshow/Content/Resources/TableStyles/Simple.css"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/TableStyles/Simple.css" />
-    <Url
-      Source="../slideshow/Content/Resources/TableStyles/SimpleWithPadding.css"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/TableStyles/SimpleWithPadding.css" />
-    <Url
-      Source="../slideshow/Content/Resources/TableStyles/Standard.css"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/TableStyles/Standard.css" />
-    <Url
-      Source="../slideshow/Content/SlideshowTopics/AdaptiveHeightDisabled.htm"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/SlideshowTopics/AdaptiveHeightDisabled.htm" />
-    <Url
-      Source="../slideshow/Content/SlideshowTopics/AdaptiveHeightEnabled.htm"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/SlideshowTopics/AdaptiveHeightEnabled.htm" />
-    <Url
-      Source="../slideshow/Content/SlideshowTopics/AutoPlay.htm"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/SlideshowTopics/AutoPlay.htm" />
-    <Url
-      Source="../slideshow/Content/SlideshowTopics/BulletNavigation.htm"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/SlideshowTopics/BulletNavigation.htm" />
-    <Url
-      Source="../slideshow/Content/SlideshowTopics/FullScreenPresentation.htm"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/SlideshowTopics/FullScreenPresentation.htm" />
-    <Url
-      Source="../slideshow/Content/SlideshowTopics/ThumbnailNavigation.htm"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/SlideshowTopics/ThumbnailNavigation.htm" />
-    <Url
-      Source="../slideshow/Project/Advanced/AliasFile.flali"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Advanced/AliasFile.flali" />
-    <Url
-      Source="../slideshow/Project/Advanced/AuthorFileTags.flfts"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Advanced/AuthorFileTags.flfts" />
-    <Url
-      Source="../slideshow/Project/Advanced/HeaderFile.h"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Advanced/HeaderFile.h" />
-    <Url
-      Source="../slideshow/Project/Advanced/IndexLinks.flixl"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Advanced/IndexLinks.flixl" />
-    <Url
-      Source="../slideshow/Project/Advanced/SearchFilterSet.flsfs"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Advanced/SearchFilterSet.flsfs" />
-    <Url
-      Source="../slideshow/Project/Advanced/StatusFileTags.flfts"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Advanced/StatusFileTags.flfts" />
-    <Url
-      Source="../slideshow/Project/ConditionTagSets/General-slideshow.flcts"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/ConditionTagSets/General-slideshow.flcts" />
-    <Url
-      Source="../slideshow/Project/Glossaries/Glossary-slideshow.flglo"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Glossaries/Glossary-slideshow.flglo" />
-    <Url
-      Source="../slideshow/Project/Skins/HTML5.flskn"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Skins/HTML5.flskn" />
-    <Url
-      Source="../slideshow/Project/Targets/Slideshow.fltar"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Targets/Slideshow.fltar" />
-    <Url
-      Source="../slideshow/Project/TOCs/OnlineOutput.fltoc"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/TOCs/OnlineOutput.fltoc" />
-    <Url
-      Source="../slideshow/Project/VariableSets/General-slideshow.flvar"
-      AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/VariableSets/General-slideshow.flvar" />
-  </CollectedSourceFiles>
-  <SkippedSourceFiles />
-  <GeneratedFiles>
-    <Url
-      Source="Content/Resources/Images/Image.png"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Content/Resources/Images/ImageThumbnail.png"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Content/Resources/Images/JokeThumbnail.png"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Content/Resources/Images/TableThumbnail.png"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Content/Resources/Images/VideoImage.png"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Content/Resources/Images/VideoThumbnail.png"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Content/Resources/Snippets/1 Image.flsnp"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Content/Resources/Snippets/2 Joke.flsnp"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Content/Resources/Snippets/3 Table.flsnp"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Content/Resources/Snippets/4 Video.flsnp"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Content/Resources/Stylesheets/styles.css"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Content/Resources/TableStyles/PatternedRows.css"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Content/Resources/TableStyles/Simple.css"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Content/Resources/TableStyles/SimpleWithPadding.css"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Content/Resources/TableStyles/Standard.css"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Content/SlideshowTopics/AdaptiveHeightDisabled.htm"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Content/SlideshowTopics/AdaptiveHeightEnabled.htm"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Content/SlideshowTopics/AutoPlay.htm"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Content/SlideshowTopics/BulletNavigation.htm"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Content/SlideshowTopics/FullScreenPresentation.htm"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Content/SlideshowTopics/ThumbnailNavigation.htm"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Project/Advanced/AliasFile.flali"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Project/Advanced/AuthorFileTags.flfts"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Project/Advanced/HeaderFile.h"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Project/Advanced/IndexLinks.flixl"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Project/Advanced/SearchFilterSet.flsfs"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Project/Advanced/StatusFileTags.flfts"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Project/ConditionTagSets/General-slideshow.flcts"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Project/Glossaries/Glossary-slideshow.flglo"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Project/Skins/HTML5.flskn"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Project/Targets/Slideshow.fltar"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Project/TOCs/OnlineOutput.fltoc"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-    <Url
-      Source="Project/VariableSets/General-slideshow.flvar"
-      TimeStamp="5/3/2017 12:14:46 PM" />
-  </GeneratedFiles>
+<CatapultProject Version="1" xml:lang="en-us" SourceControlBound="true" Comment="This template contains several starter topics and other files intended for online HTML5 output with top navigation like a modern website, instead of the more traditional tripane format. It is a simpler version of the Top Navigation and PDF Advanced template. Although it is a basic template, the content and files have been designed to maximize single-sourcing capabilities. This template starts you out with two HTML5 targets. Responsive output is automatically enabled with this type of output. This means the content display changes automatically depending on the width of the screen. The template also includes a PDF target, with auto-generation of a TOC. You can add other kinds of targets and skins if you like." MasterStylesheet="/Content/Resources/Stylesheets/main-styles.css" MasterStylesheetOverride="True" SourceControlProviderType="Git" ProjectGuid="4a131015-f009-41ca-ac47-b3132d9a65a9" IncludePattern="*.*" AutoExcludeNonTaggedFiles="false" IncludeLinkedFiles="false" DeleteStale="false" DeleteUnreferenced="true" AutoSync="false" LastImport="2017-06-05T10:38:26.4121940-05:00">
+    <Files>
+        <Url Source="file:///C:/Users/samuel.egel/flare/slideshow/slideshow.flprj" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/slideshow.flprj" />
+    </Files>
+    <ExcludedFiles />
+    <CollectedSourceFiles>
+        <Url Source="../slideshow/Content/Resources/Images/Image.png" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Images/Image.png" />
+        <Url Source="../slideshow/Content/Resources/Images/ImageThumbnail.png" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Images/ImageThumbnail.png" />
+        <Url Source="../slideshow/Content/Resources/Images/JokeThumbnail.png" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Images/JokeThumbnail.png" />
+        <Url Source="../slideshow/Content/Resources/Images/TableThumbnail.png" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Images/TableThumbnail.png" />
+        <Url Source="../slideshow/Content/Resources/Images/VideoImage.png" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Images/VideoImage.png" />
+        <Url Source="../slideshow/Content/Resources/Images/VideoThumbnail.png" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Images/VideoThumbnail.png" />
+        <Url Source="../slideshow/Content/Resources/Snippets/1 Image.flsnp" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Snippets/1 Image.flsnp" />
+        <Url Source="../slideshow/Content/Resources/Snippets/2 Joke.flsnp" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Snippets/2 Joke.flsnp" />
+        <Url Source="../slideshow/Content/Resources/Snippets/3 Table.flsnp" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Snippets/3 Table.flsnp" />
+        <Url Source="../slideshow/Content/Resources/Snippets/4 Video.flsnp" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Snippets/4 Video.flsnp" />
+        <Url Source="../slideshow/Content/Resources/Stylesheets/styles.css" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/Stylesheets/styles.css" />
+        <Url Source="../slideshow/Content/Resources/TableStyles/PatternedRows.css" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/TableStyles/PatternedRows.css" />
+        <Url Source="../slideshow/Content/Resources/TableStyles/Simple.css" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/TableStyles/Simple.css" />
+        <Url Source="../slideshow/Content/Resources/TableStyles/SimpleWithPadding.css" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/TableStyles/SimpleWithPadding.css" />
+        <Url Source="../slideshow/Content/Resources/TableStyles/Standard.css" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/Resources/TableStyles/Standard.css" />
+        <Url Source="../slideshow/Content/SlideshowTopics/AdaptiveHeightDisabled.htm" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/SlideshowTopics/AdaptiveHeightDisabled.htm" />
+        <Url Source="../slideshow/Content/SlideshowTopics/AdaptiveHeightEnabled.htm" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/SlideshowTopics/AdaptiveHeightEnabled.htm" />
+        <Url Source="../slideshow/Content/SlideshowTopics/AutoPlay.htm" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/SlideshowTopics/AutoPlay.htm" />
+        <Url Source="../slideshow/Content/SlideshowTopics/BulletNavigation.htm" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/SlideshowTopics/BulletNavigation.htm" />
+        <Url Source="../slideshow/Content/SlideshowTopics/FullScreenPresentation.htm" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/SlideshowTopics/FullScreenPresentation.htm" />
+        <Url Source="../slideshow/Content/SlideshowTopics/ThumbnailNavigation.htm" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Content/SlideshowTopics/ThumbnailNavigation.htm" />
+        <Url Source="../slideshow/Project/Advanced/AliasFile.flali" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Advanced/AliasFile.flali" />
+        <Url Source="../slideshow/Project/Advanced/AuthorFileTags.flfts" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Advanced/AuthorFileTags.flfts" />
+        <Url Source="../slideshow/Project/Advanced/HeaderFile.h" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Advanced/HeaderFile.h" />
+        <Url Source="../slideshow/Project/Advanced/IndexLinks.flixl" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Advanced/IndexLinks.flixl" />
+        <Url Source="../slideshow/Project/Advanced/SearchFilterSet.flsfs" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Advanced/SearchFilterSet.flsfs" />
+        <Url Source="../slideshow/Project/Advanced/StatusFileTags.flfts" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Advanced/StatusFileTags.flfts" />
+        <Url Source="../slideshow/Project/ConditionTagSets/General-slideshow.flcts" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/ConditionTagSets/General-slideshow.flcts" />
+        <Url Source="../slideshow/Project/Glossaries/Glossary-slideshow.flglo" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Glossaries/Glossary-slideshow.flglo" />
+        <Url Source="../slideshow/Project/Skins/HTML5.flskn" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Skins/HTML5.flskn" />
+        <Url Source="../slideshow/Project/Targets/Slideshow.fltar" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/Targets/Slideshow.fltar" />
+        <Url Source="../slideshow/Project/TOCs/OnlineOutput.fltoc" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/TOCs/OnlineOutput.fltoc" />
+        <Url Source="../slideshow/Project/VariableSets/General-slideshow.flvar" AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/Project/VariableSets/General-slideshow.flvar" />
+    </CollectedSourceFiles>
+    <SkippedSourceFiles />
+    <GeneratedFiles>
+        <Url Source="Content/Resources/Images/Image.png" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Content/Resources/Images/ImageThumbnail.png" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Content/Resources/Images/JokeThumbnail.png" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Content/Resources/Images/TableThumbnail.png" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Content/Resources/Images/VideoImage.png" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Content/Resources/Images/VideoThumbnail.png" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Content/Resources/Snippets/1 Image.flsnp" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Content/Resources/Snippets/2 Joke.flsnp" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Content/Resources/Snippets/3 Table.flsnp" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Content/Resources/Snippets/4 Video.flsnp" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Content/Resources/Stylesheets/styles.css" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Content/Resources/TableStyles/PatternedRows.css" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Content/Resources/TableStyles/Simple.css" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Content/Resources/TableStyles/SimpleWithPadding.css" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Content/Resources/TableStyles/Standard.css" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Content/SlideshowTopics/AdaptiveHeightDisabled.htm" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Content/SlideshowTopics/AdaptiveHeightEnabled.htm" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Content/SlideshowTopics/AutoPlay.htm" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Content/SlideshowTopics/BulletNavigation.htm" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Content/SlideshowTopics/FullScreenPresentation.htm" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Content/SlideshowTopics/ThumbnailNavigation.htm" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Project/Advanced/AliasFile.flali" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Project/Advanced/AuthorFileTags.flfts" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Project/Advanced/HeaderFile.h" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Project/Advanced/IndexLinks.flixl" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Project/Advanced/SearchFilterSet.flsfs" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Project/Advanced/StatusFileTags.flfts" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Project/ConditionTagSets/General-slideshow.flcts" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Project/Glossaries/Glossary-slideshow.flglo" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Project/Skins/HTML5.flskn" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Project/Targets/Slideshow.fltar" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Project/TOCs/OnlineOutput.fltoc" TimeStamp="5/3/2017 12:14:46 PM" />
+        <Url Source="Project/VariableSets/General-slideshow.flvar" TimeStamp="5/3/2017 12:14:46 PM" />
+    </GeneratedFiles>
 </CatapultProject>

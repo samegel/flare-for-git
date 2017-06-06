@@ -40,6 +40,10 @@ body
 	color: black;
 	font-weight: 600;
 }
+p.pdf-title {
+	border-bottom: 1px solid #424242;
+	font-size: 2em;
+}
 a.MCBreadcrumbsLink
 {
 	font-style: italic;

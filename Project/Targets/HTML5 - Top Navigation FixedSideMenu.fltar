@@ -7,7 +7,7 @@
   GlossaryTermConversion="marked"
   MenuSkin="/Project/Skins/SideMenuFixed.flskn"
   MasterPage="/Content/Resources/MasterPages/OtherTopicsFixedSideMenu.flmsp"
-  MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css">
+  MasterStylesheet="/Content/Resources/Stylesheets/main-styles.css">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
