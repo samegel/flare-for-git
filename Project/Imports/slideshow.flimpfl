@@ -20,7 +20,11 @@
       Source="file:///C:/Users/samuel.egel/flare/slideshow/slideshow.flprj"
       AbsoluteSource="file:///C:/Users/samuel.egel/flare/slideshow/slideshow.flprj" />
   </Files>
-  <ExcludedFiles />
+  <ExcludedFiles>
+    <Url
+      Source="../../Content/Resources/Snippets/2 Joke.flsnp"
+      AbsoluteSource="file:///C:/Users/samuel.egel/flare/flare-for-git/Content/Resources/Snippets/2 Joke.flsnp" />
+  </ExcludedFiles>
   <CollectedSourceFiles>
     <Url
       Source="../../../slideshow/Content/Resources/Images/Image.png"

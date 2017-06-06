@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="437" MadCap:lastWidth="1424">
+    <head>
+    </head>
+    <body>
+        <table class="slideshow">
+            <col />
+            <tbody>
+                <tr>
+                    <td>
+                        <p class="key-term">History</p>
+                        <p class="part-of-speech">noun</p>
+                        <p>This is the list of changes in a repository that you have told Git to record.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

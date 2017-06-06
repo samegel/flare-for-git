@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
   Comment="New Target"
@@ -6,7 +6,8 @@
   Destinations=""
   GlossaryTermConversion="marked"
   MenuSkin="/Project/Skins/SideMenuFixed.flskn"
-  MasterPage="/Content/Resources/MasterPages/OtherTopicsFixedSideMenu.flmsp">
+  MasterPage="/Content/Resources/MasterPages/OtherTopicsFixedSideMenu.flmsp"
+  MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

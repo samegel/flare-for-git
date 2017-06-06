@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="437" MadCap:lastWidth="1424">
+    <head>
+    </head>
+    <body>
+        <table class="slideshow">
+            <col />
+            <tbody>
+                <tr>
+                    <td>
+                        <p class="key-term">commit</p>
+                        <p class="part-of-speech">noun, verb</p>
+                        <p>You perform a commit to tell git that you want to record some changes you just made that you want recorded in history.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

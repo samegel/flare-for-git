@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="437" MadCap:lastWidth="1424">
+    <head>
+    </head>
+    <body>
+        <table class="slideshow">
+            <col />
+            <tbody>
+                <tr>
+                    <td>
+                        <p class="key-term">repository</p>
+                        <p class="part-of-speech">noun</p>
+                        <p>This is basically a folder with files that are rev controlled by Git.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
