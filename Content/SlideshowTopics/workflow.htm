@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2804" MadCap:lastWidth="1313">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2776" MadCap:lastWidth="1344">
     <head><title>Flare Workflow with Git and GitHub</title>
     </head>
     <body>
@@ -35,26 +35,26 @@
         <ol>
             <li>Commit when you have made a set of related and meaningful changes.</li>
             <li>A commit can include as many changes and as many files as you want, but:<ul style="list-style: square;"><li>Your commits should not be so BIG that they include unrelated changes.</li><li>Your commits should not be so SMALL that they contain only trivial changes.</li></ul></li>
-            <li>For changes to be recorded in Git, two things must be true:<ul style="list-style:square;"><li>You must tell Git which files to track (this is done when someone first creates the repo or adds a new file, not necessarily every time you make a commit).</li><li>You must tell Git which changes to record within the set of changed files.</li></ul></li>
-            <li>You must enter a commit message. A commit message lets your collaborators why you did what you did.<ul style="list-style:square;"><li>The message must be short - aim for less than 70 characters. Short messages will show up well in the various interfaces where people are likely to read it.</li><li>Must start with lower case letters. This makes a list of commit messages easier to scan.</li><li>Must start with an active verb. This helps show what happened in few letters (fix vs fixing vs fixed).</li></ul></li>
+            <li>For changes to be recorded in Git, these two things must be true:<ul style="list-style:square;"><li>You must tell Git which files to track (this is done when someone first creates the repo or adds a new file, not necessarily every time you make a commit).</li><li>You must tell Git which changes to record within the set of changed files.</li></ul></li>
+            <li>You must enter a commit message. A commit message lets your collaborators know why you did what you did.<ul style="list-style:square;"><li>The message must be short - aim for less than 70 characters. Short messages will show up well in the various interfaces where people are likely to read it.</li><li>Must start with lower case letters. This makes a list of commit messages easier to scan.</li><li>Must start with an active verb. This helps show what happened in few letters (fix vs fixing vs fixed).</li></ul></li>
             <li>For example: 'fix lazy fox typos'.</li>
         </ol>
         <h3>Make a commit in Flare</h3>
         <ol>
             <li>On the <span class="ui-text">Source Control tab</span>, click <span class="ui-text">Pending Changes</span>.</li>
-            <li>In the <span class="ui-text">Pending Changes panel</span>, select all the changes you want to commit.</li>
+            <li>In the <span class="ui-text">Pending Changes panel</span>, select all the changed files you want to commit.</li>
             <li>Click <span class="ui-text">Commit</span>.</li>
             <li>Leave a useful commit message.</li>
         </ol>
         <p>That's it. Time to share your changes with everyone else.</p>
         <h2 class="step" MadCap:autonum="Step 4. ">Push changes</h2>
-        <p>Click <span class="ui-text">Source Control &gt; Push</span>. This will push your <span class="code">fix-fox-content-in-workflow</span> branch to GitHub for your collaborators to see. Remember, you're changes have not yet been approved. They're not ready to be merged into master.</p>
+        <p>Click <span class="ui-text">Source Control &gt; Push</span>. This will get your <span class="code">fix-fox-content-in-workflow</span> branch on GitHub for your collaborators to see. Remember, you're changes have not yet been approved. They're not ready to be merged into master.</p>
         <h2 class="step" MadCap:autonum="Step 5. ">Create a pull request</h2>
         <p>This is where you ask someone to review your changes.</p>
         <h3>Rules for creating a pull request</h3>
         <ol>
             <li>Add a description to your pull request.</li>
-            <li>As with commit messages, add enough detail to be clear, but don't go into the history of watch making. There's no character limit here.</li>
+            <li>As with commit messages, add enough detail to be clear, but don't go into the history of watch making. The character limit here isn't as restrictive as with commit messages.</li>
         </ol>
         <h3>Start a pull request on GitHub</h3>
         <ol>
@@ -67,8 +67,8 @@
         </ol>
         <p>Wait for a response!</p>
         <h2 class="step" MadCap:autonum="Step 6. ">Merge in your changes</h2>
-        <p>Let's say that your changes have been approved. All you have to do to incorporate your changes into master is to find your pull request on GitHub and click <span class="ui-text">Merge</span>.</p>
-        <p>Since you only added one commit to this pull request, just use <span class="ui-text">Merge</span>. Under other circumstances, you may want to use other merge options.</p>
+        <p>Let's say that your changes have been approved. Now you have to merge your changes into master. To do this, find your pull request on GitHub and click <span class="ui-text">Merge</span>.</p>
+        <p>Since you only added one commit to this pull request, just use <span class="ui-text">Merge</span>. In some cases, you may want to use other merge options, which are beyond the scope of these instructions.</p>
         <p>In some cases, you may have merge conflicts. That is beyond the scope of these instructions.</p>
         <h2 class="step" MadCap:autonum="Step 7. ">Pull your changes</h2>
         <p>When you clicked <span class="ui-text">Merge</span>, you changes were added to the master branch on GitHub - but not the repo on your computer. Let's get your changes into master on your computer so you can have those changes ready when it's time to repeat this process.</p>
