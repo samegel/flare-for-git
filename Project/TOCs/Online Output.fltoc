@@ -9,7 +9,10 @@
       Link="/Content/A_Introduction Topics/Basic Steps.htm"></TocEntry>
     <TocEntry
       Title="Git Theory"
-      Link="/Content/SlideshowTopics/git_presentation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/SlideshowTopics/git_presentation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/SlideshowTopics/workflow.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/A_Introduction Topics/Whats New.htm" />

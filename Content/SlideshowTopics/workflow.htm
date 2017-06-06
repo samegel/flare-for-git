@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2804" MadCap:lastWidth="1313">
+    <head><title>Flare Workflow with Git and GitHub</title>
+    </head>
+    <body>
+        <h1>Here's how to edit this page</h1>
+        <p class="lead">This page shows you how to edit this page and share your changes using Flare, Git, and GitHub. </p>
+        <p>Before you get started, please note:</p>
+        <ol>
+            <li>These instructions are for Flare 12.</li>
+            <li>This workflow explains the simplest possible situation.</li>
+            <li>This workflow is not set in stone.</li>
+        </ol>
+        <p>Take heart: this page is detailed, but this process will become familiar after you run through it a few times.</p>
+        <p class="note">These instructions start right after you have already cloned the project.</p>
+        <h2 class="step" MadCap:autonum="Step 1. ">Know what you plan to do</h2>
+        <p>In this case, let's say you want to edit the following paragraph. And that's all!</p>
+        <p style="color: #0000ff;">The FAst red fox juumped ovever the lazy dooog.</p>
+        <h2 class="step" MadCap:autonum="Step 2. ">Make a branch</h2>
+        <p>Right after cloning the project, you'll probably notice that you're on the <span class="code">master</span> branch. The master branch is for approved changes only, so no one should make changes on <span class="code">master</span> before the changes are approved. This is where branches come in.</p>
+        <h3>Rules for making a branch</h3>
+        <ol>
+            <li>Create the branch from master to ensure you have the latest approved changes. If you hadn't just cloned the project, you would want to check for new changes before making a branch, but more on that later.</li>
+            <li>Give the branch a useful name. Yes, this matters.<ol style="list-style:lower-alpha;"><li>Start the name with a verb.</li><li>Separate words in the name with dashes.</li><li>For this example, how about: <span class="code">fix-fox-content-in-workflow</span></li></ol></li>
+        </ol>
+        <h3>Make a branch in Flare</h3>
+        <ul>
+            <li>To check what branch you're on, click <span class="ui-text">Source Control &gt; Branch</span>.</li>
+            <li>To create a new branch, click <span class="ui-text">Source Control &gt; Branch &gt; Create</span>. Ensure the Source Branch is set to <span class="code">master</span>.</li>
+        </ul>
+        <h2 class="step" MadCap:autonum="Step 3. ">Make edits and commit</h2>
+        <p>Once you've made your changes and you're satisfied that these changes are okay, it's time to make a commit. Commits are used to designate changes you want Git to store in its history.</p>
+        <h3>Rules for making a commit</h3>
+        <p>With a little practice, it will become clear when you need to make a commit.</p>
+        <ol>
+            <li>Commit when you have made a set of related and meaningful changes.</li>
+            <li>A commit can include as many changes and as many files as you want, but:<ul style="list-style: square;"><li>Your commits should not be so BIG that they include unrelated changes.</li><li>Your commits should not be so SMALL that they contain only trivial changes.</li></ul></li>
+            <li>For changes to be recorded in Git, two things must be true:<ul style="list-style:square;"><li>You must tell Git which files to track (this is done when someone first creates the repo or adds a new file, not necessarily every time you make a commit).</li><li>You must tell Git which changes to record within the set of changed files.</li></ul></li>
+            <li>You must enter a commit message. A commit message lets your collaborators why you did what you did.<ul style="list-style:square;"><li>The message must be short - aim for less than 70 characters. Short messages will show up well in the various interfaces where people are likely to read it.</li><li>Must start with lower case letters. This makes a list of commit messages easier to scan.</li><li>Must start with an active verb. This helps show what happened in few letters (fix vs fixing vs fixed).</li></ul></li>
+            <li>For example: 'fix lazy fox typos'.</li>
+        </ol>
+        <h3>Make a commit in Flare</h3>
+        <ol>
+            <li>On the <span class="ui-text">Source Control tab</span>, click <span class="ui-text">Pending Changes</span>.</li>
+            <li>In the <span class="ui-text">Pending Changes panel</span>, select all the changes you want to commit.</li>
+            <li>Click <span class="ui-text">Commit</span>.</li>
+            <li>Leave a useful commit message.</li>
+        </ol>
+        <p>That's it. Time to share your changes with everyone else.</p>
+        <h2 class="step" MadCap:autonum="Step 4. ">Push changes</h2>
+        <p>Click <span class="ui-text">Source Control &gt; Push</span>. This will push your <span class="code">fix-fox-content-in-workflow</span> branch to GitHub for your collaborators to see. Remember, you're changes have not yet been approved. They're not ready to be merged into master.</p>
+        <h2 class="step" MadCap:autonum="Step 5. ">Create a pull request</h2>
+        <p>This is where you ask someone to review your changes.</p>
+        <h3>Rules for creating a pull request</h3>
+        <ol>
+            <li>Add a description to your pull request.</li>
+            <li>As with commit messages, add enough detail to be clear, but don't go into the history of watch making. There's no character limit here.</li>
+        </ol>
+        <h3>Start a pull request on GitHub</h3>
+        <ol>
+            <li>Click the <span class="ui-text">Branch</span> list and choose the branch with changes you want to create a pull request for.</li>
+            <li>Click <span class="ui-text">New pull request</span>. Ensure you are requesting the correct branch to be merged into master!</li>
+            <li>Add a description.</li>
+            <li>Click <span class="ui-text">Create pull request</span>.</li>
+            <li>On the page with your pull request, find the reviewers section off to the right.</li>
+            <li>Enter the name of someone whom you want to review the pull request.</li>
+        </ol>
+        <p>Wait for a response!</p>
+        <h2 class="step" MadCap:autonum="Step 6. ">Merge in your changes</h2>
+        <p>Let's say that your changes have been approved. All you have to do to incorporate your changes into master is to find your pull request on GitHub and click <span class="ui-text">Merge</span>.</p>
+        <p>Since you only added one commit to this pull request, just use <span class="ui-text">Merge</span>. Under other circumstances, you may want to use other merge options.</p>
+        <p>In some cases, you may have merge conflicts. That is beyond the scope of these instructions.</p>
+        <h2 class="step" MadCap:autonum="Step 7. ">Pull your changes</h2>
+        <p>When you clicked <span class="ui-text">Merge</span>, you changes were added to the master branch on GitHub - but not the repo on your computer. Let's get your changes into master on your computer so you can have those changes ready when it's time to repeat this process.</p>
+        <p>In Flare, one the <span class="ui-text">Source Control tab</span>, click <span class="ui-text">Pull</span>.</p>
+        <p>Further, you will want to diligently pull changes when you're working on a branch shared with other collaborators. Before making a branch from master again, be sure to check that there are no new changes that you should have in your repository!</p>
+        <!-- This paragraph added to let last section scroll all the way up flush with the sticky side nav -->
+        <p style="margin-bottom:1000px;">The End</p>
+    </body>
+</html>
