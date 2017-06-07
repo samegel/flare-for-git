@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultBatchTarget
+  Version="1"
+  Comment="New Batch Target">
+  <Targets>
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="cheat-sheet"
+      Type="PDF"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="manual"
+      Type="PDF"
+      Build="true" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="topnav"
+      Type="HTML5"
+      Build="true"
+      LastBuilt="2017-06-07T14:14:36.9115329-05:00" />
+  </Targets>
+</CatapultBatchTarget>
