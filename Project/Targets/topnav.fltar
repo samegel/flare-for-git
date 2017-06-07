@@ -7,7 +7,9 @@
   GlossaryTermConversion="marked"
   MenuSkin="/Project/Skins/SideMenuFixed.flskn"
   MasterPage="/Content/Resources/MasterPages/OtherTopicsFixedSideMenu.flmsp"
-  MasterStylesheet="/Content/Resources/Stylesheets/main-styles.css">
+  MasterStylesheet="/Content/Resources/Stylesheets/main-styles.css"
+  DefaultUrl="/Content/git-training/git_presentation.htm"
+  MasterToc="/Project/TOCs/Online Output.fltoc">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
