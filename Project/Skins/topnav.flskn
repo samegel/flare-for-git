@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="2"
+  SkinType="WebHelp2"
+  ComponentType="MasterPage"
+  TemplateName="Fluid"
+  Comment="HTML5 Fluid Layout"
+  EnableResponsiveOutput="true"
+  RemoveImagesOnSave="true">
+  <Stylesheet>
+    <Resources>
+      <Resource
+        Name="git-learnin-logo.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0huAWIuDDUgKe12sBlKMxUHuTgzrzsm8BHJY0h19HRkYNvZz/0lkBfI5CzwiixkY+A6DMOPx/BUpDAxMqZ4ujiEVcW9ndBceVuBxsPazDtrsW/ZRY55K945/CySSG6fG+AT82lF9fbdEsuK8jS+unz//neGBKAvbdQWDHWyNB005eNY5JhTwMjVnC0jENB94IIWQ4mP5J7vrtsH2f6ti26cXvJ2ucn/Xw0Wx+VO+se4rcf5QbhTxvpht04LA3aX7q+7zJ8x9l/tCr2q+2M85shYddV0piaX2kQllD8qbD/yfdF7wh89JgR2Rr7h05mtu/XrY9Mvp0tvTBa5/XNf8rct/UeSDWpub1Vs805L2njGd8kS91i1kc5vhc5uj6e0rlyYvv750pWFL+rn0CVuXRN+qzn6WxaTfbfDUXSxEqHAOw87tEcyzVauZTt9QeuLWsOFDp4j39ZR7SlOULhj931hvfnfHvhfWLg/q/kj3K28U5T9YtWZ29uMdf9XyKmdyGc71UW10vZaySMzQ7Zb4jg0TlEI1vx2IvfKkddrP10WuKa5bO9IEInbW1z759j1KYUPr4o3e17vbvQWTb1+qnPXMfmKv8uT/vGyNU7Of3fBb1Ci0aMqV1mus03506d4TffzL+Jetuf9mFY4atVt5xTrvXV4z2X97s8eH449FqTeHqeVxE/0Pf59u2TOh/3TDgcpVbw8U550XubHF43ySgMmJze+N7+22DPGcc/vwrDOFWRw5z8+qHrnlxblB3VNMK+938N9gjf/md48vtq3PyuT5Xbe55KHkyx0cc5b3HTg6eYfqTgarUpa4V+1n/DSY9mcsb6l3vSob8ZvF8+WK9+cYUu/FM682FW/o7WJi3iNHTDIwvH9YvuEcT/65DZf+AlMhg6ern8s6p4QmAIDNoeXQAgAA</Resource>
+    </Resources>
+    <Styles>
+      <Medium
+        Name="Tablet">
+        <Style
+          Name="Navigation Slide Out Button">
+          <Properties></Properties>
+        </Style>
+        <Style
+          Name="Navigation Panel">
+          <Properties></Properties>
+        </Style>
+        <Style
+          Name="Navigation Panel Item">
+          <Properties>
+            <Property
+              Name="LineHeight">1</Property>
+          </Properties>
+        </Style>
+        <Style
+          Name="Search Filter">
+          <Properties></Properties>
+        </Style>
+        <Style
+          Name="Search Filter Drop-down">
+          <Properties></Properties>
+        </Style>
+        <Style
+          Name="Search Filter Drop-down (hover)">
+          <Properties></Properties>
+        </Style>
+      </Medium>
+      <Style
+        Name="Header">
+        <Properties>
+          <Property
+            Name="Height">122px</Property>
+          <Property
+            Name="BackgroundColor">#292928</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Menu Item">
+        <Classes>
+          <StyleClass
+            Name="2nd Level">
+            <Properties>
+              <Property
+                Name="PaddingRight">10px</Property>
+              <Property
+                Name="MarginRight">0px</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="3rd Level">
+            <Properties>
+              <Property
+                Name="PaddingRight">10px</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="4th Level">
+            <Properties>
+              <Property
+                Name="PaddingRight">10px</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+        <Properties></Properties>
+      </Style>
+      <Style
+        Name="Search Input">
+        <Properties>
+          <Property
+            Name="BackgroundColor">#ffffff</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Menu">
+        <Properties>
+          <Property
+            Name="Float">right</Property>
+          <Property
+            Name="FontFamily">Source Code Pro Medium</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Logo">
+        <Properties>
+          <Property
+            Name="BackgroundImage">url('git-learnin-logo.png')</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Submit Button">
+        <Properties>
+          <Property
+            Name="BackgroundColor">#96c6e5</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Menu Item (hover)">
+        <Properties>
+          <Property
+            Name="BackgroundRepeat">repeat</Property>
+          <Property
+            Name="BackgroundImage">none</Property>
+        </Properties>
+      </Style>
+    </Styles>
+  </Stylesheet>
+  <WebHelpOptions
+    NavigationPanePosition="Right" />
+  <Strings>
+    <Stylesheet
+      lang="en-us">
+      <Stylesheet>
+        <Resources>
+          <Resource
+            Name="git-learnin-logo.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0huAWIuDDUgKe12sBlKMxUHuTgzrzsm8BHJY0h19HRkYNvZz/0lkBfI5CzwiixkY+A6DMOPx/BUpDAxMqZ4ujiEVcW9ndBceVuBxsPazDtrsW/ZRY55K945/CySSG6fG+AT82lF9fbdEsuK8jS+unz//neGBKAvbdQWDHWyNB005eNY5JhTwMjVnC0jENB94IIWQ4mP5J7vrtsH2f6ti26cXvJ2ucn/Xw0Wx+VO+se4rcf5QbhTxvpht04LA3aX7q+7zJ8x9l/tCr2q+2M85shYddV0piaX2kQllD8qbD/yfdF7wh89JgR2Rr7h05mtu/XrY9Mvp0tvTBa5/XNf8rct/UeSDWpub1Vs805L2njGd8kS91i1kc5vhc5uj6e0rlyYvv750pWFL+rn0CVuXRN+qzn6WxaTfbfDUXSxEqHAOw87tEcyzVauZTt9QeuLWsOFDp4j39ZR7SlOULhj931hvfnfHvhfWLg/q/kj3K28U5T9YtWZ29uMdf9XyKmdyGc71UW10vZaySMzQ7Zb4jg0TlEI1vx2IvfKkddrP10WuKa5bO9IEInbW1z759j1KYUPr4o3e17vbvQWTb1+qnPXMfmKv8uT/vGyNU7Of3fBb1Ci0aMqV1mus03506d4TffzL+Jetuf9mFY4atVt5xTrvXV4z2X97s8eH449FqTeHqeVxE/0Pf59u2TOh/3TDgcpVbw8U550XubHF43ySgMmJze+N7+22DPGcc/vwrDOFWRw5z8+qHrnlxblB3VNMK+938N9gjf/md48vtq3PyuT5Xbe55KHkyx0cc5b3HTg6eYfqTgarUpa4V+1n/DSY9mcsb6l3vSob8ZvF8+WK9+cYUu/FM682FW/o7WJi3iNHTDIwvH9YvuEcT/65DZf+AlMhg6ern8s6p4QmAIDNoeXQAgAA</Resource>
+          <Resource
+            Name="nav-hover-background.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0huAWIuDDUgKe12sBlKMxUHuTgzrzsm8BHJY0h19HRkYNvZz/0lkBfI5CzwiixkY+A6DMOPx/BUpQMGpni6OIRVxby85cjIYChw4cOrlL/Edx/9mKxg0Fk4wLhZfxeMzq9HT2CCTTe3sgSWSM0yYJ6clXKK6YFkY15dZ39MTVKvOWhd/Z95eda/hhVC+NNCBDJ6ufi7rnBKaALtmnAIAAQAA</Resource>
+        </Resources>
+        <Styles>
+          <Medium
+            Name="Tablet">
+            <Style
+              Name="Navigation Slide Out Button">
+              <Properties></Properties>
+            </Style>
+            <Style
+              Name="Navigation Panel">
+              <Properties></Properties>
+            </Style>
+            <Style
+              Name="Navigation Panel Item">
+              <Properties>
+                <Property
+                  Name="LineHeight">1</Property>
+              </Properties>
+            </Style>
+            <Style
+              Name="Search Filter">
+              <Properties></Properties>
+            </Style>
+            <Style
+              Name="Search Filter Drop-down">
+              <Properties></Properties>
+            </Style>
+            <Style
+              Name="Search Filter Drop-down (hover)">
+              <Properties></Properties>
+            </Style>
+          </Medium>
+          <Style
+            Name="Header">
+            <Properties>
+              <Property
+                Name="Height">122px</Property>
+              <Property
+                Name="BackgroundColor">#292928</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Menu Item">
+            <Classes>
+              <StyleClass
+                Name="2nd Level">
+                <Properties>
+                  <Property
+                    Name="PaddingRight">10px</Property>
+                  <Property
+                    Name="MarginRight">0px</Property>
+                </Properties>
+              </StyleClass>
+              <StyleClass
+                Name="3rd Level">
+                <Properties>
+                  <Property
+                    Name="PaddingRight">10px</Property>
+                </Properties>
+              </StyleClass>
+              <StyleClass
+                Name="4th Level">
+                <Properties>
+                  <Property
+                    Name="PaddingRight">10px</Property>
+                </Properties>
+              </StyleClass>
+            </Classes>
+            <Properties></Properties>
+          </Style>
+          <Style
+            Name="Search Input">
+            <Properties>
+              <Property
+                Name="BackgroundColor">#ffffff</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Menu">
+            <Properties>
+              <Property
+                Name="Float">right</Property>
+              <Property
+                Name="FontFamily">Source Code Pro Medium</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Logo">
+            <Properties>
+              <Property
+                Name="BackgroundImage">url('git-learnin-logo.png')</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Search Submit Button">
+            <Properties>
+              <Property
+                Name="BackgroundColor">#96c6e5</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Menu Item (hover)">
+            <Properties>
+              <Property
+                Name="BackgroundRepeat">repeat</Property>
+              <Property
+                Name="BackgroundImage">none</Property>
+            </Properties>
+          </Style>
+        </Styles>
+      </Stylesheet>
+    </Stylesheet>
+  </Strings>
+</CatapultSkin>

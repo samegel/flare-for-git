@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay Profile="C:\Users\samuel.egel\Documents\My Profiles\MyProfile.capro" ProfileHash="48a8431eb0c4d928a2e10e3988d9ee1c0e27d86e" ScreenRectangle="140,118,176,42">
+        <OriginalImage AutoAdjust="true" Type="Image" ShapeTimeSpan="10000" EnableCropRectangle="false" CropRectangle="0,0,0,0" ComputedWidth="176" ComputedHeight="42" Format="tiff">SUkqAHYBAACACkUih/gCDQeEQmFQuGQ2HQ+IRGJROKRWLReMRmNRuOR2PR+QSGRSOSSWTSeUSaBQSUy2XS+YTGZTOaTWbTecTmdS+VwWdz+gUGhUOiUWjUekUmGz2lU2nU+oVGpVOqVWJ0yrVmtVuuV2vV+u1iwWOyWWzWe0WmJWK1W23W+4XG5TW2XO7Xe8Xm9Xe63u/X/AYHBUi+4PDYfEYnFR3C4vHY/IZHBY3JZXLZfMWDKZnOZ3PZ+hZvQaPSaXTSLRafVavWa2EanXbHZbPLbDabfcbm/7bdb3fb+0bzgcPicWp8Ljcnlcugcjmc/odGU87pdXrdeMdTsdvud2D9rveHxc/wePzeff+X0ev2bH1e34fHR+/5fX7ZX6ff9fvD/n+P/AC8v9AMCQKtsBwNBMFK/BEFwdB7joGn0IQpCq0wbC0Mw0ncMQ3D0PpjDsQRHEiSRFEsURSjUTxVFsXIhFkXxlGaDRjGkbxVG0cR3EaAgQAP4ABAABAAAAAAAAAAABBAABAAAAsAAAAAEBBAABAAAAKgAAAAIBAwAEAAAAPAIAAAMBAwABAAAABQAAAAYBAwABAAAAAgAAABEBBAABAAAACAAAABUBAwABAAAABAAAABYBBAABAAAAKgAAABcBBAABAAAAbgEAABoBBQABAAAARAIAABsBBQABAAAATAIAABwBAwABAAAAAQAAACgBAwABAAAAAgAAAD0BAwABAAAAAgAAAFIBAwABAAAAAgAAAAAAAAAIAAgACAAIAAB3AQDoAwAAAHcBAOgDAAA=</OriginalImage>
+        <Shapes>
+            <Shape Type="Rectangle" PaddingLeft="0" PaddingBottom="0" PaddingRight="0" PaddingTop="0" BackgroundColor="transparent" X="11" Y="5" Width="151" Height="30" ShapeTimeSpan="10000" Right="14" Bottom="7" FontSize="14pt" FontFamily="Source Code Pro Medium" FontWeight="normal" FontStyle="normal" Underline="false" Color="White" Left="11" Top="5" LineWidth="0" BackgroundType="Solid" Transparency="0">git learnin</Shape>
+        </Shapes>
+        <Variables />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

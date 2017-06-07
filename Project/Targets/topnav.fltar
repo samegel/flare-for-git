@@ -9,7 +9,8 @@
   MasterPage="/Content/Resources/MasterPages/OtherTopicsFixedSideMenu.flmsp"
   MasterStylesheet="/Content/Resources/Stylesheets/main-styles.css"
   DefaultUrl="/Content/git-training/git_presentation.htm"
-  MasterToc="/Project/TOCs/Online Output.fltoc">
+  MasterToc="/Project/TOCs/Online Output.fltoc"
+  Skin="/Project/Skins/topnav.flskn">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
