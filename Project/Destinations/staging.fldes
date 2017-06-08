@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="This is the staging destination"
+  Host="web4"
+  User="MyAccountId"
+  Password=""
+  Directory="training"
+  Port="22"
+  ViewUrl=""
+  Type="sftp"
+  UploadLogFile="false"
+  SftpServerValidation="validation-none"
+  SftpAuthentication="authentication-password"
+  RemoveStale="false"
+  ChangedOnly="false"></CatapultDestination>
