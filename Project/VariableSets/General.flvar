@@ -30,7 +30,7 @@
     Name="title"
     Comment=""
     OriginalName="PDFGuideTitle"
-    EvaluatedDefinition="Manual">Manual</Variable>
+    EvaluatedDefinition="Manual™">Manual™</Variable>
   <Variable
     Name="Year"
     Comment=""
