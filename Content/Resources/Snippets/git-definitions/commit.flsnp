@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="437" MadCap:lastWidth="1366">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="111" MadCap:lastWidth="624">
     <head>
     </head>
     <body>
@@ -8,9 +8,9 @@
             <tbody>
                 <tr>
                     <td>
-                        <p class="key-term">commit</p>
+                        <p>commit</p>
                         <p class="part-of-speech">noun, verb</p>
-                        <p>A commit is how you tell Git to record changes in the history.</p>
+                        <p>A commit is ...........................</p>
                     </td>
                 </tr>
             </tbody>
