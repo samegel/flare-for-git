@@ -44,6 +44,21 @@ p.pdf-title {
 	border-bottom: 1px solid #424242;
 	font-size: 2em;
 }
+p.key-term {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1.5em;
+	font-weight: normal;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	text-transform: lowercase;
+}
+
+p.part-of-speech {
+	color: #ccc;
+	font-size: .75em;
+	margin-top:0;
+}
 a.MCBreadcrumbsLink
 {
 	font-style: italic;
@@ -211,22 +226,6 @@ table.slideshow td {
 	vertical-align: middle;
 }
 
-/* Because headings show in side nav */
-p.key-term {
-	font-family: 'Source Code Pro', monospace;
-	font-size: 1.5em;
-	font-weight: normal;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding-bottom: 0;
-	text-transform: lowercase;
-}
-
-p.part-of-speech {
-	color: #ccc;
-	font-size: .75em;
-	margin-top:0;
-}
 @media print
 {
 	body
