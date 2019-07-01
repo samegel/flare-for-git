@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_topnav" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title>Flare Workflow with Git and GitHub</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <style>@import url('https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro');
+
+</style>
+        <link href="../Resources/Stylesheets/main-styles.css" rel="stylesheet" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.topic-ratings-button
+{
+	-pie-background: transparent url('../Skins/Default/Stylesheets/Images/star-full.png') no-repeat center center;
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+.button.edit-user-profile-button
+{
+	-pie-background: url('../Skins/Default/Stylesheets/Images/edit-profile.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.print-button
+{
+	-pie-background: url('../Skins/Default/Stylesheets/Images/printer.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.expand-all-button
+{
+	-pie-background: url('../Skins/Default/Stylesheets/Images/expand.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: url('../Skins/Default/Stylesheets/Images/collapse.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <script src="../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../Resources/Scripts/foundation.6.2.3_custom.js">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="git_presentation.html" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" placeholder="Search" />
+                                                <div class="search-filter-wrapper">
+                                                    <div class="search-filter">
+                                                        <div class="search-filter-content">
+                                                            <ul>
+                                                                <li>All Files</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <div class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <div class="content">
+                                        <div id="contentBody">
+                                            <div class="row collapse">
+                                                <div class="sideContent">
+                                                    <div class="clearfix">
+                                                        <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar mc-component nocontent">
+                                                            <div class="button-group-container-left">
+                                                                <div class="button-group star-buttons loading feedback-topic-required">
+                                                                    <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Click a star to rate this topic" data-state1-title="Click a star to rate this topic" data-state2-title="Click a star to rate this topic">
+                                                                        <img src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="topic rating" />
+                                                                    </div>
+                                                                    <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Click a star to rate this topic" data-state1-title="Click a star to rate this topic" data-state2-title="Click a star to rate this topic">
+                                                                        <img src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="topic rating" />
+                                                                    </div>
+                                                                    <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Click a star to rate this topic" data-state1-title="Click a star to rate this topic" data-state2-title="Click a star to rate this topic">
+                                                                        <img src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="topic rating" />
+                                                                    </div>
+                                                                    <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Click a star to rate this topic" data-state1-title="Click a star to rate this topic" data-state2-title="Click a star to rate this topic">
+                                                                        <img src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="topic rating" />
+                                                                    </div>
+                                                                    <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Click a star to rate this topic" data-state1-title="Click a star to rate this topic" data-state2-title="Click a star to rate this topic">
+                                                                        <img src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="topic rating" />
+                                                                    </div>
+                                                                </div>
+                                                                <div class="button-separator feedback-topic-required">
+                                                                </div>
+                                                                <button class="button feedback-required login-button" id="normalLoginBtn" data-state1-class="login-button" data-state2-class="edit-user-profile-button" title="Login" data-state1-title="Login">
+                                                                    <img src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="login" />
+                                                                </button>
+                                                                <button class="button needs-pie print-button" title="Print">
+                                                                    <img src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="print" />
+                                                                </button>
+                                                                <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all" data-state1-title="Expand all">
+                                                                    <img src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="expand all" />
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="nocontent">
+                                                    <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                    </div>
+                                                </div>
+                                                <div class="ContentRow" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                                                    <div>
+                                                        <h1 xmlns="" id="Hereshowtoeditthispage" data-magellan-target="Hereshowtoeditthispage">Here's how to edit this page</h1>
+                                                        <p class="lead" xmlns="">This page shows you how to edit this page and share your changes using Flare, Git, and GitHub. </p>
+                                                        <p xmlns=""><a href="https://www.licor.com/documents/bhya5u51gcqqoh8geiohb6is72klhdmf" target="_blank">Get the Manual</a>
+                                                        </p>
+                                                        <p xmlns="">Before you get started, please note:</p>
+                                                        <ol xmlns="">
+                                                            <li value="1">These instructions are for Flare 12.</li>
+                                                            <li value="2">This workflow explains the simplest possible situation.</li>
+                                                            <li value="3">This workflow is not set in stone.</li>
+                                                        </ol>
+                                                        <p xmlns="">Take heart: this page is detailed, but this process will become familiar after you run through it a few times.</p>
+                                                        <p class="note" xmlns="">These instructions start right after you have already cloned the project.</p>
+                                                        <h2 class="step" data-mc-autonum="Step 1. " xmlns="" id="Step1Communicatewhatyouplantodo" data-magellan-target="Step1Communicatewhatyouplantodo"><span class="autonumber"><span>Step 1. </span></span>Communicate what you plan to do</h2>
+                                                        <p xmlns="">In this case, let's say you want to edit the following paragraph.</p>
+                                                        <p style="color: #0000ff;" xmlns="">The FAst red fox juumped ovever the lazy dooog.</p>
+                                                        <p xmlns="">You work on this repo with a person named "Bob". You need to make sure Bob is aware of the changes you're making so that he doesn't make conflicting changes. Two things must happen to ensure everyone knows what's going on:</p>
+                                                        <ol xmlns="">
+                                                            <li value="1">You must <strong style="text-decoration: underline;">tell</strong> Bob what you plan to do.</li>
+                                                            <li value="2">Bob must <strong style="text-decoration: underline;">acknowledge</strong> that he has received your message.</li>
+                                                        </ol>
+                                                        <p xmlns="">If you and Bob are familiar with each other's work habits and the structure of the repo, this might be the only exchange needed:</p>
+                                                        <p xmlns=""><strong>You:</strong> Hey Bob, I'm going to update the fast fox content.</p>
+                                                        <p xmlns=""><strong>Bob:</strong> Okay.</p>
+                                                        <p xmlns="">Once that's done, you can get started.</p>
+                                                        <h2 class="step" data-mc-autonum="Step 2. " xmlns="" id="Step2Makeabranch" data-magellan-target="Step2Makeabranch"><span class="autonumber"><span>Step 2. </span></span>Make a branch</h2>
+                                                        <p xmlns="">Right after cloning the project, you'll probably notice that you're on the <span class="code">master</span> branch. The master branch is for approved changes only, so no one should make changes on <span class="code">master</span> before the changes are approved. This is where branches come in.</p>
+                                                        <h3 xmlns="" id="Rulesformakingabranch" data-magellan-target="Rulesformakingabranch">Rules for making a branch</h3>
+                                                        <ol xmlns="">
+                                                            <li value="1">Create the branch from master to ensure you have the latest approved changes. If you hadn't just cloned the project, you would want to check for new changes before making a branch, but more on that later.</li>
+                                                            <li value="2">Give the branch a useful name. Yes, this matters.<ol style="list-style:lower-alpha;"><li value="1">Start the name with a verb.</li><li value="2">Separate words in the name with dashes.</li><li value="3">For this example, how about: <span class="code">fix-fox-content-in-workflow</span></li></ol></li>
+                                                        </ol>
+                                                        <h3 xmlns="" id="MakeabranchinFlare" data-magellan-target="MakeabranchinFlare">Make a branch in Flare</h3>
+                                                        <ul xmlns="">
+                                                            <li value="1">To check what branch you're on, click <span class="ui-text">Source Control &gt; Branch</span>.</li>
+                                                            <li value="2">To create a new branch, click <span class="ui-text">Source Control &gt; Branch &gt; Create</span>. Ensure the Source Branch is set to <span class="code">master</span>.</li>
+                                                        </ul>
+                                                        <h2 class="step" data-mc-autonum="Step 3. " xmlns="" id="Step3Makeeditsandcommit" data-magellan-target="Step3Makeeditsandcommit"><span class="autonumber"><span>Step 3. </span></span>Make edits and commit</h2>
+                                                        <p xmlns="">Once you've made your changes and you're satisfied that these changes are okay, it's time to make a commit. Commits are used to designate changes you want to store in Git's history.</p>
+                                                        <h3 xmlns="" id="Rulesformakingacommit" data-magellan-target="Rulesformakingacommit">Rules for making a commit</h3>
+                                                        <p xmlns="">With a little practice, it will become clear when you need to make a commit.</p>
+                                                        <ol xmlns="">
+                                                            <li value="1">Commit when you have made a set of related and meaningful changes.</li>
+                                                            <li value="2">A commit can include as many changes and as many files as you want, but:<ul style="list-style: square;"><li value="1">Your commits should not be so BIG that they include unrelated changes.</li><li value="2">Your commits should not be so SMALL that they contain only trivial changes.</li></ul></li>
+                                                            <li value="3">For changes to be recorded in Git, these two things must be true:<ul style="list-style:square;"><li value="1">You must tell Git which files to track (this is done when someone first creates the repo or adds a new file, not necessarily every time you make a commit).</li><li value="2">You must tell Git which changes to record within the set of changed files.</li></ul></li>
+                                                            <li value="4">You must enter a commit message. A commit message lets your collaborators know why you did what you did.<ul style="list-style:square;"><li value="1">The message must be short - aim for less than 70 characters. Short messages will show up well in the various interfaces where people are likely to read it.</li><li value="2">Must start with lower case letters. This makes a list of commit messages easier to scan.</li><li value="3">Must start with an active verb. This helps show what happened in few letters (fix vs fixing vs fixed).</li></ul></li>
+                                                            <li value="5">For example: 'fix lazy fox typos'.</li>
+                                                        </ol>
+                                                        <h3 xmlns="" id="MakeacommitinFlare" data-magellan-target="MakeacommitinFlare">Make a commit in Flare</h3>
+                                                        <ol xmlns="">
+                                                            <li value="1">On the <span class="ui-text">Source Control tab</span>, click <span class="ui-text">Pending Changes</span>.</li>
+                                                            <li value="2">In the <span class="ui-text">Pending Changes panel</span>, select all the changed files you want to commit.</li>
+                                                            <li value="3">Click <span class="ui-text">Commit</span>.</li>
+                                                            <li value="4">Leave a useful commit message.</li>
+                                                        </ol>
+                                                        <p xmlns="">That's it. Time to share your changes with everyone else.</p>
+                                                        <h2 class="step" data-mc-autonum="Step 4. " xmlns="" id="Step4Pushchanges" data-magellan-target="Step4Pushchanges"><span class="autonumber"><span>Step 4. </span></span>Push changes</h2>
+                                                        <p xmlns="">Click <span class="ui-text">Source Control &gt; Push</span>. This will get your <span class="code">fix-fox-content-in-workflow</span> branch on GitHub for your collaborators to see. Remember, your changes have not yet been approved. They're not ready to be merged into master.</p>
+                                                        <h2 class="step" data-mc-autonum="Step 5. " xmlns="" id="Step5Createapullrequest" data-magellan-target="Step5Createapullrequest"><span class="autonumber"><span>Step 5. </span></span>Create a pull request</h2>
+                                                        <p xmlns="">This is where you ask someone to review your changes.</p>
+                                                        <h3 xmlns="" id="Rulesforcreatingapullrequest" data-magellan-target="Rulesforcreatingapullrequest">Rules for creating a pull request</h3>
+                                                        <ol xmlns="">
+                                                            <li value="1">Add a description to your pull request.</li>
+                                                            <li value="2">As with commit messages, add enough detail to be clear, but don't go into the history of watch making. The character limit here isn't as restrictive as with commit messages.</li>
+                                                        </ol>
+                                                        <h3 xmlns="" id="StartapullrequestonGitHub" data-magellan-target="StartapullrequestonGitHub">Start a pull request on GitHub</h3>
+                                                        <ol xmlns="">
+                                                            <li value="1">Click the <span class="ui-text">Branch</span> list and choose the branch with changes you want to create a pull request for.</li>
+                                                            <li value="2">Click <span class="ui-text">New pull request</span>. Ensure you are requesting the correct branch to be merged into master!</li>
+                                                            <li value="3">Add a description.</li>
+                                                            <li value="4">Click <span class="ui-text">Create pull request</span>.</li>
+                                                            <li value="5">On the page with your pull request, find the reviewers section off to the right.</li>
+                                                            <li value="6">Enter the name of someone whom you want to review the pull request.</li>
+                                                        </ol>
+                                                        <p xmlns="">Wait for a response!</p>
+                                                        <h2 class="step" data-mc-autonum="Step 6. " xmlns="" id="Step6Mergeinyourchanges" data-magellan-target="Step6Mergeinyourchanges"><span class="autonumber"><span>Step 6. </span></span>Merge in your changes</h2>
+                                                        <p xmlns="">Let's say that your changes have been approved. Now you have to merge your changes into master. To do this, find your pull request on GitHub and click <span class="ui-text">Merge</span>.</p>
+                                                        <p xmlns="">Since you only added one commit to this pull request, just use <span class="ui-text">Merge</span>. In some cases, you may want to use other merge options, which are beyond the scope of these instructions.</p>
+                                                        <p xmlns="">In some cases, you may have merge conflicts. That is beyond the scope of these instructions.</p>
+                                                        <h2 class="step" data-mc-autonum="Step 7. " xmlns="" id="Step7Pullyourchanges" data-magellan-target="Step7Pullyourchanges"><span class="autonumber"><span>Step 7. </span></span>Pull your changes</h2>
+                                                        <p xmlns="">When you clicked <span class="ui-text">Merge</span>, your changes were added to the master branch on GitHub - but not the repo on your computer. Let's get your changes into master on your computer so you can have those changes ready when it's time to repeat this process.</p>
+                                                        <p xmlns="">In Flare, on the <span class="ui-text">Source Control tab</span>, click <span class="ui-text">Pull</span>.</p>
+                                                        <p xmlns="">Further, you will want to diligently pull changes when you're working on a branch shared with other collaborators. Before making a branch from master again, be sure to check that there are no new changes that you should have in your repository!</p>
+                                                        <!-- This paragraph added to let last section scroll all the way up flush with the sticky side nav -->
+                                                        <p style="margin-bottom:1000px;" xmlns="">The End</p>
+                                                    </div>
+                                                    <div>
+                                                        <div data-sticky-container="" id="aZkgUBdll06U0N_xuYzf3Q" xmlns="">
+                                                            <div class="sticky sticky-menu" style="width:100%" data-sticky="" data-top-anchor="aZkgUBdll06U0N_xuYzf3Q:top" data-bottom-anchor="contentBody:bottom" data-sticky-on="small" data-scroll-container-on="small">
+                                                                <ul data-magellan="" data-animation-duration="250" data-active-class="selected" data-scroll-container-on="small" class="nocontent menu _Skins_SideMenuFixed mc-component">
+                                                                    <li><a href="#Hereshowtoeditthispage">Here's how to edit this page</a>
+                                                                    </li>
+                                                                    <ul>
+                                                                        <li><a href="#Step1Communicatewhatyouplantodo">Step 1. Communicate what you plan to do</a>
+                                                                        </li>
+                                                                        <li><a href="#Step2Makeabranch">Step 2. Make a branch</a>
+                                                                        </li>
+                                                                        <ul>
+                                                                            <li><a href="#Rulesformakingabranch">Rules for making a branch</a>
+                                                                            </li>
+                                                                            <li><a href="#MakeabranchinFlare">Make a branch in Flare</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                        <li><a href="#Step3Makeeditsandcommit">Step 3. Make edits and commit</a>
+                                                                        </li>
+                                                                        <ul>
+                                                                            <li><a href="#Rulesformakingacommit">Rules for making a commit</a>
+                                                                            </li>
+                                                                            <li><a href="#MakeacommitinFlare">Make a commit in Flare</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                        <li><a href="#Step4Pushchanges">Step 4. Push changes</a>
+                                                                        </li>
+                                                                        <li><a href="#Step5Createapullrequest">Step 5. Create a pull request</a>
+                                                                        </li>
+                                                                        <ul>
+                                                                            <li><a href="#Rulesforcreatingapullrequest">Rules for creating a pull request</a>
+                                                                            </li>
+                                                                            <li><a href="#StartapullrequestonGitHub">Start a pull request on GitHub</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                        <li><a href="#Step6Mergeinyourchanges">Step 6. Merge in your changes</a>
+                                                                        </li>
+                                                                        <li><a href="#Step7Pullyourchanges">Step 7. Pull your changes</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>
