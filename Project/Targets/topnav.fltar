@@ -10,7 +10,13 @@
   MasterStylesheet="/Content/Resources/Stylesheets/main-styles.css"
   DefaultUrl="/Content/git-training/git_presentation.htm"
   MasterToc="/Project/TOCs/Online Output.fltoc"
-  Skin="/Project/Skins/topnav.flskn">
+  Skin="/Project/Skins/topnav.flskn"
+  OutputFile="index"
+  MoveOutputContentToRoot="true"
+  UseCustomTopicFileExtension="true"
+  CustomTopicFileExtension="html"
+  ExcludeUnreferencedContent="true"
+  OutputFolder="C:\Users\samuel.egel\flare\flare-for-git\docs">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
@@ -20,4 +26,5 @@
     <Destination
       Link="/Project/Destinations/staging.fldes" />
   </Destinations>
+  <PostBuild>xcopy $(OutputDirectory) C:\Users\%USERNAME%\flare\flare-for-git\docs /O /X /E /H /K</PostBuild>
 </CatapultTarget>
