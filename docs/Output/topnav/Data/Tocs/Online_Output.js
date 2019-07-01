@@ -1,0 +1,1 @@
+define({numchunks:1,prefix:'Online_Output_Chunk',chunkstart:['/git-training/git_presentation.html'],tree:{n:[{i:0,c:0},{i:1,c:0}]}});

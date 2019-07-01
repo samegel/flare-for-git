@@ -1,0 +1,1 @@
+define({'/git-training/git_presentation.html':{i:[0],t:['Theory'],b:['']},'/git-training/workflow.html':{i:[1],t:['Workflow'],b:['']}});

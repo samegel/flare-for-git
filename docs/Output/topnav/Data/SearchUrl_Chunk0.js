@@ -1,0 +1,1 @@
+define({"../git-training/git_presentation.html":0,"../git-training/workflow.html":1,});
